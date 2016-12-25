@@ -42,6 +42,7 @@ public class MyResourceTest {
      */
     @Test
     public void testGetIt() {
+    	System.out.println("Executing test case");
         String responseMsg = target.path("myresource").request().get(String.class);
         assertEquals("Got it!", responseMsg);
     }
