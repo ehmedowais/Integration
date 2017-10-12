@@ -6,7 +6,7 @@ apply plugin: 'java'
 apply plugin: 'maven'
 
 group = 'com.lambdaTec'
-version = '1.0.0-SNAPSHOT'
+
 
 description = """RestHibernateTutorial"""
 
